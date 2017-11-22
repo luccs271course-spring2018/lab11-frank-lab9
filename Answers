@@ -1,0 +1,11 @@
+Try using a TreeMap and a HashMap instead of MyHashMap. Are the resulting word frequencies any different? Is the time performance any different? If so, how would you rank the three implementations (in increasing order of time complexity)?
+1.	Word frequency doesn’t change, however, in terms of performance; MyHashMap is the fastest of the three, second is HashMap, and the slowest is TreeMap.
+
+How are % and Math.floorMod different? Which works more reliably for computing a hash table index?
+2.	Math.floorMod rounds down and in terms of mapping, it maps to the nearest lowest integer which makes it more reliable for computing a hash table index.
+
+What is the time complexity of MyHashMap.size(), and how could you make it much more efficient?
+3.	The time complexity is O(n). The more efficient method would be to make size an instance variable and increment the value as we add items to the HashMap
+
+How does this implementation compare to one where you would directly use your linked Node class from the earlier assignment? Answer briefly in terms of ease of implementation, correctness, reliability, and performance.
+4.	Implementation using the linked Node class is better than with HashMaps, however, HashMaps are better in terms of performance. The use of linked node class and HashMaps are relatively equal in terms of correctness and reliability.
